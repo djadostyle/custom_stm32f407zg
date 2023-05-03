@@ -1,0 +1,11 @@
+{
+    "INRUSH_MCU_F407ZG": {
+        "inherits": [
+            "MCU_STM32F407xG"
+            ],
+        "overrides": {
+            "clock_source": "USE_PLL_HSE_XTAL"
+        },
+            "device_name": "STM32F407ZG"
+    }
+}
